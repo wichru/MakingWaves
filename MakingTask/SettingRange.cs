@@ -1,7 +1,5 @@
 ﻿namespace MakingTask
 {
-    partial class Program
-    {
         class SettingRange
         {
             string _startDate;
@@ -20,5 +18,4 @@
             }
 
         }
-    }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace MakingTask
 {
-    partial class Program
+    class Program
     {
-
-
         static void Main(string[] args)
         {
             var range = new SettingRange();
@@ -20,6 +18,7 @@ namespace MakingTask
             Console.Clear();
             Console.WriteLine($@"Your date range is:
             {range.Start} - {range.End}");
+            Console.ReadKey();
         }
     }
 }
